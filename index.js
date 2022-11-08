@@ -1,5 +1,6 @@
     const express = require('express');
     const path = require('path');
+    const token = process.env.bienesraicesapp_token;
     require('dotenv').config();
     //App de Express
     const app = express();
